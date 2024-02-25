@@ -24,6 +24,6 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            antonioggca000/kube-news:v1
+            antonioggca000/kube-news:${{github.run_number}}
             antonioggca000/kube-news:latest
             
